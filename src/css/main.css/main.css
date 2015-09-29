@@ -93,6 +93,13 @@ img {
   background-color: red;
   width: 60%; }
 
+.3littlethings {
+  display: block;
+  float: left; }
+
+ul {
+  list-style-type: none; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
