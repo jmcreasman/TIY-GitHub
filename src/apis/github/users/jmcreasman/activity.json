@@ -1,0 +1,3368 @@
+[
+  {
+    "id": "3209290102",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--my-little-profile",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Github Revolution!",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:35:22Z"
+  },
+  {
+    "id": "3209265155",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 7,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/7",
+        "id": 46822645,
+        "html_url": "https://github.com/jmcreasman/TIY-GitHub/pull/7",
+        "diff_url": "https://github.com/jmcreasman/TIY-GitHub/pull/7.diff",
+        "patch_url": "https://github.com/jmcreasman/TIY-GitHub/pull/7.patch",
+        "issue_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/7",
+        "number": 7,
+        "state": "open",
+        "locked": false,
+        "title": "Update README.md",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-05T19:28:15Z",
+        "updated_at": "2015-10-05T19:28:15Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/7/commits",
+        "review_comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/7/comments",
+        "review_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/7/comments",
+        "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/5c67f4a8b4fba0236428e995b0ed3a32db29f85e",
+        "head": {
+          "label": "jmcreasman:release--0.0.2",
+          "ref": "release--0.0.2",
+          "sha": "5c67f4a8b4fba0236428e995b0ed3a32db29f85e",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316966,
+            "name": "TIY-GitHub",
+            "full_name": "jmcreasman/TIY-GitHub",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "description": "Github Revolution!",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:51:38Z",
+            "updated_at": "2015-09-29T18:09:54Z",
+            "pushed_at": "2015-10-05T19:28:08Z",
+            "git_url": "git://github.com/jmcreasman/TIY-GitHub.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-GitHub.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-GitHub.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jmcreasman:master",
+          "ref": "master",
+          "sha": "bd178b8e853ed937b9af5ed3e25e6fb203590c73",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316966,
+            "name": "TIY-GitHub",
+            "full_name": "jmcreasman/TIY-GitHub",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "description": "Github Revolution!",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:51:38Z",
+            "updated_at": "2015-09-29T18:09:54Z",
+            "pushed_at": "2015-10-05T19:28:08Z",
+            "git_url": "git://github.com/jmcreasman/TIY-GitHub.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-GitHub.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-GitHub.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/7"
+          },
+          "html": {
+            "href": "https://github.com/jmcreasman/TIY-GitHub/pull/7"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/7"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/7/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/7/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/7/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/5c67f4a8b4fba0236428e995b0ed3a32db29f85e"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:28:15Z"
+  },
+  {
+    "id": "3209264710",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816023048,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.2",
+      "head": "5c67f4a8b4fba0236428e995b0ed3a32db29f85e",
+      "before": "bd178b8e853ed937b9af5ed3e25e6fb203590c73",
+      "commits": [
+        {
+          "sha": "5c67f4a8b4fba0236428e995b0ed3a32db29f85e",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/5c67f4a8b4fba0236428e995b0ed3a32db29f85e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:28:08Z"
+  },
+  {
+    "id": "3209261931",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "release--0.0.2",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Github Revolution!",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:27:22Z"
+  },
+  {
+    "id": "3209237239",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/11",
+        "id": 46821721,
+        "html_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/11",
+        "diff_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/11.diff",
+        "patch_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/11.patch",
+        "issue_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/11",
+        "number": 11,
+        "state": "open",
+        "locked": false,
+        "title": "Release  0.0.0",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-05T19:20:22Z",
+        "updated_at": "2015-10-05T19:20:22Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/11/commits",
+        "review_comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/11/comments",
+        "review_comment_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/11/comments",
+        "statuses_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/4901e49c39d11d0d3dd3567dc9a7b28052749d12",
+        "head": {
+          "label": "jmcreasman:release--0.0.0",
+          "ref": "release--0.0.0",
+          "sha": "4901e49c39d11d0d3dd3567dc9a7b28052749d12",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41692212,
+            "name": "jmcreasman.github.io",
+            "full_name": "jmcreasman/jmcreasman.github.io",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io",
+            "forks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:12:42Z",
+            "updated_at": "2015-10-02T18:25:00Z",
+            "pushed_at": "2015-10-05T19:19:10Z",
+            "git_url": "git://github.com/jmcreasman/jmcreasman.github.io.git",
+            "ssh_url": "git@github.com:jmcreasman/jmcreasman.github.io.git",
+            "clone_url": "https://github.com/jmcreasman/jmcreasman.github.io.git",
+            "svn_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "homepage": null,
+            "size": 332,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jmcreasman:master",
+          "ref": "master",
+          "sha": "2fe28a76409b6b7f9c4a8810d8ddc59a4abbf49b",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41692212,
+            "name": "jmcreasman.github.io",
+            "full_name": "jmcreasman/jmcreasman.github.io",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io",
+            "forks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:12:42Z",
+            "updated_at": "2015-10-02T18:25:00Z",
+            "pushed_at": "2015-10-05T19:19:10Z",
+            "git_url": "git://github.com/jmcreasman/jmcreasman.github.io.git",
+            "ssh_url": "git@github.com:jmcreasman/jmcreasman.github.io.git",
+            "clone_url": "https://github.com/jmcreasman/jmcreasman.github.io.git",
+            "svn_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "homepage": null,
+            "size": 332,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/11"
+          },
+          "html": {
+            "href": "https://github.com/jmcreasman/jmcreasman.github.io/pull/11"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/11"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/11/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/11/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/11/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/4901e49c39d11d0d3dd3567dc9a7b28052749d12"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 1488,
+        "deletions": 0,
+        "changed_files": 25
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:20:23Z"
+  },
+  {
+    "id": "3209232869",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 816011614,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "4901e49c39d11d0d3dd3567dc9a7b28052749d12",
+      "before": "83bf69b0494de2426dc1ac90773c6e95d719d144",
+      "commits": [
+        {
+          "sha": "ff8ec5a317a767eb3b6be18712c61ee36d708248",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "set up for new project",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/ff8ec5a317a767eb3b6be18712c61ee36d708248"
+        },
+        {
+          "sha": "4901e49c39d11d0d3dd3567dc9a7b28052749d12",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "Merge branch 'release--0.0.0' of https://github.com/jmcreasman/jmcreasman.github.io into release--0.0.0",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/4901e49c39d11d0d3dd3567dc9a7b28052749d12"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:19:11Z"
+  },
+  {
+    "id": "3209215332",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 816005274,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "83bf69b0494de2426dc1ac90773c6e95d719d144",
+      "before": "2fe28a76409b6b7f9c4a8810d8ddc59a4abbf49b",
+      "commits": [
+        {
+          "sha": "83bf69b0494de2426dc1ac90773c6e95d719d144",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Create .gitignore",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/83bf69b0494de2426dc1ac90773c6e95d719d144"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:14:18Z"
+  },
+  {
+    "id": "3209100917",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "ref": "release--0.0.0",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:42:37Z"
+  },
+  {
+    "id": "3209020071",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 815935769,
+      "size": 16,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "bd178b8e853ed937b9af5ed3e25e6fb203590c73",
+      "before": "a294cf834a348f10780952e108c8300691ffa655",
+      "commits": [
+        {
+          "sha": "34093034c50c3f1aae43df9e6c667ea9324fed90",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/34093034c50c3f1aae43df9e6c667ea9324fed90"
+        },
+        {
+          "sha": "c2643d381d7ae079baeb3ba9979db4eb913a0956",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/c2643d381d7ae079baeb3ba9979db4eb913a0956"
+        },
+        {
+          "sha": "6a3f118dba78de7848c2682dbe9bba822ad1ad89",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Create .gitignore",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/6a3f118dba78de7848c2682dbe9bba822ad1ad89"
+        },
+        {
+          "sha": "e712dc99a75bdd0e3e368d56d0a0c9c8b6237eb3",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "html bare bones added",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/e712dc99a75bdd0e3e368d56d0a0c9c8b6237eb3"
+        },
+        {
+          "sha": "18c5fcfa3b1a46f543291858e914358d41883b52",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Delete .gitignore",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/18c5fcfa3b1a46f543291858e914358d41883b52"
+        },
+        {
+          "sha": "eb7d975125f09d312c3cedbf0bd0a6876554d3b0",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "finished with phase one",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/eb7d975125f09d312c3cedbf0bd0a6876554d3b0"
+        },
+        {
+          "sha": "13bc39b1931f5518b0ba6356a616285025913819",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Merge pull request #3 from jmcreasman/feature--basic-layout\n\nFeature 1",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/13bc39b1931f5518b0ba6356a616285025913819"
+        },
+        {
+          "sha": "d5bfd7de6a04083863a5384f692cec6a51489aa2",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "finished phase 2",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/d5bfd7de6a04083863a5384f692cec6a51489aa2"
+        },
+        {
+          "sha": "d9c2021e5404981515ed70c5b6cde2a9883b8beb",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Merge pull request #5 from jmcreasman/feature--basic-layout\n\nfinished phase 2",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/d9c2021e5404981515ed70c5b6cde2a9883b8beb"
+        },
+        {
+          "sha": "6d246de37783289901316f0bb920a73d36679a04",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/6d246de37783289901316f0bb920a73d36679a04"
+        },
+        {
+          "sha": "2510f1c0ad54d40cc897dd974d95cb2013c08697",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "half way done",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/2510f1c0ad54d40cc897dd974d95cb2013c08697"
+        },
+        {
+          "sha": "d12e0c31545e23537021b7535ccbf30108342b71",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "i tried",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/d12e0c31545e23537021b7535ccbf30108342b71"
+        },
+        {
+          "sha": "6637e1b14f828ba873088b77ebf7ac2e5a19d30d",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "did as much as i could so close",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/6637e1b14f828ba873088b77ebf7ac2e5a19d30d"
+        },
+        {
+          "sha": "13616c609cc0a1d7e8a3416fa7c109b81bd8ea2b",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Merge pull request #6 from jmcreasman/feature--fetching-data\n\nFeature 3",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/13616c609cc0a1d7e8a3416fa7c109b81bd8ea2b"
+        },
+        {
+          "sha": "5042e8a86ee97f25e6e3c33686dfc16d56967c3d",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update package.json",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/5042e8a86ee97f25e6e3c33686dfc16d56967c3d"
+        },
+        {
+          "sha": "bd178b8e853ed937b9af5ed3e25e6fb203590c73",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Merge pull request #2 from jmcreasman/release--0.0.1\n\nUpdate README.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/bd178b8e853ed937b9af5ed3e25e6fb203590c73"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:20:32Z"
+  },
+  {
+    "id": "3209020057",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 2,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/2",
+        "id": 46318234,
+        "html_url": "https://github.com/jmcreasman/TIY-GitHub/pull/2",
+        "diff_url": "https://github.com/jmcreasman/TIY-GitHub/pull/2.diff",
+        "patch_url": "https://github.com/jmcreasman/TIY-GitHub/pull/2.patch",
+        "issue_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/2",
+        "number": 2,
+        "state": "closed",
+        "locked": false,
+        "title": "Update README.md",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-29T19:05:20Z",
+        "updated_at": "2015-10-05T18:20:32Z",
+        "closed_at": "2015-10-05T18:20:32Z",
+        "merged_at": "2015-10-05T18:20:32Z",
+        "merge_commit_sha": "7fa5dc24304eb377707183541b42f2233cb5ac12",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/2/commits",
+        "review_comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/2/comments",
+        "review_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/2/comments",
+        "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/5042e8a86ee97f25e6e3c33686dfc16d56967c3d",
+        "head": {
+          "label": "jmcreasman:release--0.0.1",
+          "ref": "release--0.0.1",
+          "sha": "5042e8a86ee97f25e6e3c33686dfc16d56967c3d",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316966,
+            "name": "TIY-GitHub",
+            "full_name": "jmcreasman/TIY-GitHub",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "description": "Github Revolution!",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:51:38Z",
+            "updated_at": "2015-09-29T18:09:54Z",
+            "pushed_at": "2015-10-05T18:20:32Z",
+            "git_url": "git://github.com/jmcreasman/TIY-GitHub.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-GitHub.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-GitHub.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jmcreasman:master",
+          "ref": "master",
+          "sha": "a294cf834a348f10780952e108c8300691ffa655",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316966,
+            "name": "TIY-GitHub",
+            "full_name": "jmcreasman/TIY-GitHub",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "description": "Github Revolution!",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:51:38Z",
+            "updated_at": "2015-09-29T18:09:54Z",
+            "pushed_at": "2015-10-05T18:20:32Z",
+            "git_url": "git://github.com/jmcreasman/TIY-GitHub.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-GitHub.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-GitHub.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/2"
+          },
+          "html": {
+            "href": "https://github.com/jmcreasman/TIY-GitHub/pull/2"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/2"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/2/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/2/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/2/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/5042e8a86ee97f25e6e3c33686dfc16d56967c3d"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 1,
+        "review_comments": 2,
+        "commits": 15,
+        "additions": 1176,
+        "deletions": 44,
+        "changed_files": 20
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:20:32Z"
+  },
+  {
+    "id": "3209018752",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 815935270,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.1",
+      "head": "5042e8a86ee97f25e6e3c33686dfc16d56967c3d",
+      "before": "13616c609cc0a1d7e8a3416fa7c109b81bd8ea2b",
+      "commits": [
+        {
+          "sha": "5042e8a86ee97f25e6e3c33686dfc16d56967c3d",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update package.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/5042e8a86ee97f25e6e3c33686dfc16d56967c3d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:20:12Z"
+  },
+  {
+    "id": "3209015880",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 815934219,
+      "size": 5,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.1",
+      "head": "13616c609cc0a1d7e8a3416fa7c109b81bd8ea2b",
+      "before": "d9c2021e5404981515ed70c5b6cde2a9883b8beb",
+      "commits": [
+        {
+          "sha": "6d246de37783289901316f0bb920a73d36679a04",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/6d246de37783289901316f0bb920a73d36679a04"
+        },
+        {
+          "sha": "2510f1c0ad54d40cc897dd974d95cb2013c08697",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "half way done",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/2510f1c0ad54d40cc897dd974d95cb2013c08697"
+        },
+        {
+          "sha": "d12e0c31545e23537021b7535ccbf30108342b71",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "i tried",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/d12e0c31545e23537021b7535ccbf30108342b71"
+        },
+        {
+          "sha": "6637e1b14f828ba873088b77ebf7ac2e5a19d30d",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "did as much as i could so close",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/6637e1b14f828ba873088b77ebf7ac2e5a19d30d"
+        },
+        {
+          "sha": "13616c609cc0a1d7e8a3416fa7c109b81bd8ea2b",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Merge pull request #6 from jmcreasman/feature--fetching-data\n\nFeature 3",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits/13616c609cc0a1d7e8a3416fa7c109b81bd8ea2b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:19:26Z"
+  },
+  {
+    "id": "3209015869",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43316966,
+      "name": "jmcreasman/TIY-GitHub",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 6,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/6",
+        "id": 46342639,
+        "html_url": "https://github.com/jmcreasman/TIY-GitHub/pull/6",
+        "diff_url": "https://github.com/jmcreasman/TIY-GitHub/pull/6.diff",
+        "patch_url": "https://github.com/jmcreasman/TIY-GitHub/pull/6.patch",
+        "issue_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/6",
+        "number": 6,
+        "state": "closed",
+        "locked": false,
+        "title": "Feature 3",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-29T22:52:39Z",
+        "updated_at": "2015-10-05T18:19:25Z",
+        "closed_at": "2015-10-05T18:19:25Z",
+        "merged_at": "2015-10-05T18:19:25Z",
+        "merge_commit_sha": "9bde32577fdc015b621baf3b06b3fcc186af736e",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/6/commits",
+        "review_comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/6/comments",
+        "review_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/6/comments",
+        "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/6637e1b14f828ba873088b77ebf7ac2e5a19d30d",
+        "head": {
+          "label": "jmcreasman:feature--fetching-data",
+          "ref": "feature--fetching-data",
+          "sha": "6637e1b14f828ba873088b77ebf7ac2e5a19d30d",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316966,
+            "name": "TIY-GitHub",
+            "full_name": "jmcreasman/TIY-GitHub",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "description": "Github Revolution!",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:51:38Z",
+            "updated_at": "2015-09-29T18:09:54Z",
+            "pushed_at": "2015-10-05T18:19:25Z",
+            "git_url": "git://github.com/jmcreasman/TIY-GitHub.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-GitHub.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-GitHub.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jmcreasman:release--0.0.1",
+          "ref": "release--0.0.1",
+          "sha": "d9c2021e5404981515ed70c5b6cde2a9883b8beb",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316966,
+            "name": "TIY-GitHub",
+            "full_name": "jmcreasman/TIY-GitHub",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "description": "Github Revolution!",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:51:38Z",
+            "updated_at": "2015-09-29T18:09:54Z",
+            "pushed_at": "2015-10-05T18:19:25Z",
+            "git_url": "git://github.com/jmcreasman/TIY-GitHub.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-GitHub.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-GitHub.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-GitHub",
+            "homepage": null,
+            "size": 0,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/6"
+          },
+          "html": {
+            "href": "https://github.com/jmcreasman/TIY-GitHub/pull/6"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/6"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/issues/6/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/6/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/pulls/6/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-GitHub/statuses/6637e1b14f828ba873088b77ebf7ac2e5a19d30d"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 4,
+        "additions": 17,
+        "deletions": 5,
+        "changed_files": 5
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:19:25Z"
+  },
+  {
+    "id": "3209012008",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43155615,
+      "name": "jmcreasman/TIY-Chessboard2.0",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0"
+    },
+    "payload": {
+      "push_id": 815932791,
+      "size": 12,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "aa6073b267ab13a1cbbd74e4ec82f145cc60e142",
+      "before": "ad882ac9c355df0f45cf3db564ae5c3a0e790a2e",
+      "commits": [
+        {
+          "sha": "febdf251d6a5e62724fe107fe34a73624725e07f",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/febdf251d6a5e62724fe107fe34a73624725e07f"
+        },
+        {
+          "sha": "a663d0d7bf1ebe29b55a8f720ab6f3ed619f7e78",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "no idea what this was",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/a663d0d7bf1ebe29b55a8f720ab6f3ed619f7e78"
+        },
+        {
+          "sha": "c827f8aee0d321ef2c1aa92a65e817edb1dbde15",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "saving work, done with testing and started trying to make the model move pieces",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/c827f8aee0d321ef2c1aa92a65e817edb1dbde15"
+        },
+        {
+          "sha": "a3878b7bebdee6556e426efbedbdc086580c0880",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "dont think i needed this and not sure where it came from",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/a3878b7bebdee6556e426efbedbdc086580c0880"
+        },
+        {
+          "sha": "26fb8515ca46ad1687bcb690c385e6ae04eeaf2c",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "moved into oldstuff folder",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/26fb8515ca46ad1687bcb690c385e6ae04eeaf2c"
+        },
+        {
+          "sha": "0b587c2f6a653a00401d28f4540c3ebbb8d2309e",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "moving old chess set into folder",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/0b587c2f6a653a00401d28f4540c3ebbb8d2309e"
+        },
+        {
+          "sha": "5f849452f3053ff57537a5a6679322dcab302f63",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "i want to throw my mac out the window nothing works i hate chess now",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/5f849452f3053ff57537a5a6679322dcab302f63"
+        },
+        {
+          "sha": "db4496f39640482a4f914f673bf62baab5fd5e9b",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "uggghhhh",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/db4496f39640482a4f914f673bf62baab5fd5e9b"
+        },
+        {
+          "sha": "c8e98a4d18a13840b568d24c2c05decf50ab50f3",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "it works",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/c8e98a4d18a13840b568d24c2c05decf50ab50f3"
+        },
+        {
+          "sha": "c14e8a0c12d146cd4890eac42d15905a7d3f460e",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "beast/nightmare mode attempt",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/c14e8a0c12d146cd4890eac42d15905a7d3f460e"
+        },
+        {
+          "sha": "c387b95071ce15bc03da4e542680590da61a2e1c",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "cleaning up some comments",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/c387b95071ce15bc03da4e542680590da61a2e1c"
+        },
+        {
+          "sha": "aa6073b267ab13a1cbbd74e4ec82f145cc60e142",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Merge pull request #4 from jmcreasman/19--world-war-chess\n\nChess set",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/aa6073b267ab13a1cbbd74e4ec82f145cc60e142"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:18:22Z"
+  },
+  {
+    "id": "3209011957",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43155615,
+      "name": "jmcreasman/TIY-Chessboard2.0",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 4,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/4",
+        "id": 46655006,
+        "html_url": "https://github.com/jmcreasman/TIY-Chessboard2.0/pull/4",
+        "diff_url": "https://github.com/jmcreasman/TIY-Chessboard2.0/pull/4.diff",
+        "patch_url": "https://github.com/jmcreasman/TIY-Chessboard2.0/pull/4.patch",
+        "issue_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/4",
+        "number": 4,
+        "state": "closed",
+        "locked": false,
+        "title": "Chess set",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-02T16:32:07Z",
+        "updated_at": "2015-10-05T18:18:21Z",
+        "closed_at": "2015-10-05T18:18:21Z",
+        "merged_at": "2015-10-05T18:18:21Z",
+        "merge_commit_sha": "e04b092e05efe16c68ec505a2918f6980bfbf7cd",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/4/commits",
+        "review_comments_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/4/comments",
+        "review_comment_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/4/comments",
+        "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/statuses/c387b95071ce15bc03da4e542680590da61a2e1c",
+        "head": {
+          "label": "jmcreasman:19--world-war-chess",
+          "ref": "19--world-war-chess",
+          "sha": "c387b95071ce15bc03da4e542680590da61a2e1c",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43155615,
+            "name": "TIY-Chessboard2.0",
+            "full_name": "jmcreasman/TIY-Chessboard2.0",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-Chessboard2.0",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/releases{/id}",
+            "created_at": "2015-09-25T15:33:33Z",
+            "updated_at": "2015-09-25T15:50:58Z",
+            "pushed_at": "2015-10-05T18:18:21Z",
+            "git_url": "git://github.com/jmcreasman/TIY-Chessboard2.0.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-Chessboard2.0.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-Chessboard2.0.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-Chessboard2.0",
+            "homepage": null,
+            "size": 1540,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "HTML",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jmcreasman:master",
+          "ref": "master",
+          "sha": "ad882ac9c355df0f45cf3db564ae5c3a0e790a2e",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43155615,
+            "name": "TIY-Chessboard2.0",
+            "full_name": "jmcreasman/TIY-Chessboard2.0",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/TIY-Chessboard2.0",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0",
+            "forks_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/releases{/id}",
+            "created_at": "2015-09-25T15:33:33Z",
+            "updated_at": "2015-09-25T15:50:58Z",
+            "pushed_at": "2015-10-05T18:18:21Z",
+            "git_url": "git://github.com/jmcreasman/TIY-Chessboard2.0.git",
+            "ssh_url": "git@github.com:jmcreasman/TIY-Chessboard2.0.git",
+            "clone_url": "https://github.com/jmcreasman/TIY-Chessboard2.0.git",
+            "svn_url": "https://github.com/jmcreasman/TIY-Chessboard2.0",
+            "homepage": null,
+            "size": 1540,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "HTML",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/4"
+          },
+          "html": {
+            "href": "https://github.com/jmcreasman/TIY-Chessboard2.0/pull/4"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/4"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/issues/4/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/4/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/pulls/4/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/statuses/c387b95071ce15bc03da4e542680590da61a2e1c"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 11,
+        "additions": 1701,
+        "deletions": 1114,
+        "changed_files": 11
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:18:22Z"
+  },
+  {
+    "id": "3208950521",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815910966,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "7068d8cae383cbbe636ca937ab78c195140e468e",
+      "before": "55281b5fa9e496212234894e195217c7aa2b8280",
+      "commits": [
+        {
+          "sha": "7068d8cae383cbbe636ca937ab78c195140e468e",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update resource-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/7068d8cae383cbbe636ca937ab78c195140e468e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:01:12Z"
+  },
+  {
+    "id": "3208947465",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815909868,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "55281b5fa9e496212234894e195217c7aa2b8280",
+      "before": "1aadecab926985eaaf3401d2176daa393c8ed4d1",
+      "commits": [
+        {
+          "sha": "55281b5fa9e496212234894e195217c7aa2b8280",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update tutorial-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/55281b5fa9e496212234894e195217c7aa2b8280"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:00:21Z"
+  },
+  {
+    "id": "3208945667",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815909218,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "1aadecab926985eaaf3401d2176daa393c8ed4d1",
+      "before": "e78c581dd835d67103efb11d1e8b985c45e14ba2",
+      "commits": [
+        {
+          "sha": "1aadecab926985eaaf3401d2176daa393c8ed4d1",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update tutorial-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/1aadecab926985eaaf3401d2176daa393c8ed4d1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:59:53Z"
+  },
+  {
+    "id": "3208943820",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815908535,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "e78c581dd835d67103efb11d1e8b985c45e14ba2",
+      "before": "14f65581a5642123f42511b495956b99804951d5",
+      "commits": [
+        {
+          "sha": "e78c581dd835d67103efb11d1e8b985c45e14ba2",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update tutorial-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/e78c581dd835d67103efb11d1e8b985c45e14ba2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:59:24Z"
+  },
+  {
+    "id": "3208941035",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815907583,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "14f65581a5642123f42511b495956b99804951d5",
+      "before": "58216d639748e6f2ba181df7d9c54505c173ebc9",
+      "commits": [
+        {
+          "sha": "14f65581a5642123f42511b495956b99804951d5",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update journal-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/14f65581a5642123f42511b495956b99804951d5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:58:34Z"
+  },
+  {
+    "id": "3208938216",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815906585,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "58216d639748e6f2ba181df7d9c54505c173ebc9",
+      "before": "daf064f8b2628c9874780a47c76f65ef50b38fcf",
+      "commits": [
+        {
+          "sha": "58216d639748e6f2ba181df7d9c54505c173ebc9",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Create resource-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/58216d639748e6f2ba181df7d9c54505c173ebc9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:57:49Z"
+  },
+  {
+    "id": "3208936923",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815906120,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "daf064f8b2628c9874780a47c76f65ef50b38fcf",
+      "before": "078f2add127cd70e88ddabce83d937d69a5d1c3a",
+      "commits": [
+        {
+          "sha": "daf064f8b2628c9874780a47c76f65ef50b38fcf",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Create journal-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/daf064f8b2628c9874780a47c76f65ef50b38fcf"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:57:28Z"
+  },
+  {
+    "id": "3208935677",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815905684,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5-from-master",
+      "head": "078f2add127cd70e88ddabce83d937d69a5d1c3a",
+      "before": "2fe28a76409b6b7f9c4a8810d8ddc59a4abbf49b",
+      "commits": [
+        {
+          "sha": "078f2add127cd70e88ddabce83d937d69a5d1c3a",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Create tutorial-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/078f2add127cd70e88ddabce83d937d69a5d1c3a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:57:08Z"
+  },
+  {
+    "id": "3208932898",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5-from-master",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:56:23Z"
+  },
+  {
+    "id": "3208927860",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/379",
+        "id": 109851085,
+        "number": 379,
+        "title": "20 --Jonathan Creasman",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-10-05T17:53:42Z",
+        "updated_at": "2015-10-05T17:55:03Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [x] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [ ] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145613844",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/379#issuecomment-145613844",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379",
+        "id": 145613844,
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T17:55:03Z",
+        "updated_at": "2015-10-05T17:55:03Z",
+        "body": "Create a WIP Issue with links to:\r\n\r\nyour PR in USERNAME.github.io\r\n\r\n from journal-week-5 into master\r\n\r\n from release--0.0.0 into master\r\n\r\n your PR in TIY-GitHub from release--0.0.2 into master\r\n\r\n your PRs in TIY-GitHub from feature--* (multiple) into release--0.0.2\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:55:05Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3208925427",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "push_id": 815902087,
+      "size": 10,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "2fe28a76409b6b7f9c4a8810d8ddc59a4abbf49b",
+      "before": "abe4d5bce2f14753db707cddc89ff72c9a8183fe",
+      "commits": [
+        {
+          "sha": "fe90ff09906f0c735d02619b7b3146ade32c5bdd",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Create journal-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/fe90ff09906f0c735d02619b7b3146ade32c5bdd"
+        },
+        {
+          "sha": "25898aa889be88e3c2aba307b6351a9c1ecfa350",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Create tutorial-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/25898aa889be88e3c2aba307b6351a9c1ecfa350"
+        },
+        {
+          "sha": "3564becbbdbf62c73b76d13572f6061b9204bf5b",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update journal-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/3564becbbdbf62c73b76d13572f6061b9204bf5b"
+        },
+        {
+          "sha": "736815e0d94d36169be496c5bcb2d2420bdd8a7a",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update tutorial-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/736815e0d94d36169be496c5bcb2d2420bdd8a7a"
+        },
+        {
+          "sha": "f5e32b9f4f8a9a08fb5a6bc61c6249cc245ee876",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update tutorial-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/f5e32b9f4f8a9a08fb5a6bc61c6249cc245ee876"
+        },
+        {
+          "sha": "75058f01672a1b78ba3229a95eaff2e4e0e80d6e",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update tutorial-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/75058f01672a1b78ba3229a95eaff2e4e0e80d6e"
+        },
+        {
+          "sha": "6bb38532e0b9de3a7a6859065e42322080b05dbb",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update journal-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/6bb38532e0b9de3a7a6859065e42322080b05dbb"
+        },
+        {
+          "sha": "da7f2db83d05897e7b9827e063d61b9c05f610b8",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update tutorial-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/da7f2db83d05897e7b9827e063d61b9c05f610b8"
+        },
+        {
+          "sha": "ea1e2f04da9f77b724d9709664c1c3fdd7fe2fe8",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Update journal-week-4.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/ea1e2f04da9f77b724d9709664c1c3fdd7fe2fe8"
+        },
+        {
+          "sha": "2fe28a76409b6b7f9c4a8810d8ddc59a4abbf49b",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jonathan Creasman"
+          },
+          "message": "Merge pull request #10 from jmcreasman/journal-week-4\n\nJournals",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits/2fe28a76409b6b7f9c4a8810d8ddc59a4abbf49b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:54:23Z"
+  },
+  {
+    "id": "3208925389",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41692212,
+      "name": "jmcreasman/jmcreasman.github.io",
+      "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 10,
+      "pull_request": {
+        "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/10",
+        "id": 46197980,
+        "html_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10",
+        "diff_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10.diff",
+        "patch_url": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10.patch",
+        "issue_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10",
+        "number": 10,
+        "state": "closed",
+        "locked": false,
+        "title": "Journals",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-09-28T19:32:57Z",
+        "updated_at": "2015-10-05T17:54:22Z",
+        "closed_at": "2015-10-05T17:54:22Z",
+        "merged_at": "2015-10-05T17:54:22Z",
+        "merge_commit_sha": "83da046ec0a510cf65c84091b053554c16dbcbe8",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/10/commits",
+        "review_comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/10/comments",
+        "review_comment_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10/comments",
+        "statuses_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/ea1e2f04da9f77b724d9709664c1c3fdd7fe2fe8",
+        "head": {
+          "label": "jmcreasman:journal-week-4",
+          "ref": "journal-week-4",
+          "sha": "ea1e2f04da9f77b724d9709664c1c3fdd7fe2fe8",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41692212,
+            "name": "jmcreasman.github.io",
+            "full_name": "jmcreasman/jmcreasman.github.io",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io",
+            "forks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:12:42Z",
+            "updated_at": "2015-10-02T18:25:00Z",
+            "pushed_at": "2015-10-05T17:54:22Z",
+            "git_url": "git://github.com/jmcreasman/jmcreasman.github.io.git",
+            "ssh_url": "git@github.com:jmcreasman/jmcreasman.github.io.git",
+            "clone_url": "https://github.com/jmcreasman/jmcreasman.github.io.git",
+            "svn_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "homepage": null,
+            "size": 332,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "jmcreasman:master",
+          "ref": "master",
+          "sha": "8b5cc23e681f583ef77ca9b4c1df8dd3dc02aee6",
+          "user": {
+            "login": "jmcreasman",
+            "id": 13600903,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jmcreasman",
+            "html_url": "https://github.com/jmcreasman",
+            "followers_url": "https://api.github.com/users/jmcreasman/followers",
+            "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+            "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+            "repos_url": "https://api.github.com/users/jmcreasman/repos",
+            "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41692212,
+            "name": "jmcreasman.github.io",
+            "full_name": "jmcreasman/jmcreasman.github.io",
+            "owner": {
+              "login": "jmcreasman",
+              "id": 13600903,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/jmcreasman",
+              "html_url": "https://github.com/jmcreasman",
+              "followers_url": "https://api.github.com/users/jmcreasman/followers",
+              "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+              "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+              "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+              "repos_url": "https://api.github.com/users/jmcreasman/repos",
+              "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io",
+            "forks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/forks",
+            "keys_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/events",
+            "assignees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/merges",
+            "archive_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:12:42Z",
+            "updated_at": "2015-10-02T18:25:00Z",
+            "pushed_at": "2015-10-05T17:54:22Z",
+            "git_url": "git://github.com/jmcreasman/jmcreasman.github.io.git",
+            "ssh_url": "git@github.com:jmcreasman/jmcreasman.github.io.git",
+            "clone_url": "https://github.com/jmcreasman/jmcreasman.github.io.git",
+            "svn_url": "https://github.com/jmcreasman/jmcreasman.github.io",
+            "homepage": null,
+            "size": 332,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "CSS",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/10"
+          },
+          "html": {
+            "href": "https://github.com/jmcreasman/jmcreasman.github.io/pull/10"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/issues/10/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/10/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/pulls/10/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/jmcreasman/jmcreasman.github.io/statuses/ea1e2f04da9f77b724d9709664c1c3fdd7fe2fe8"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 8,
+        "review_comments": 3,
+        "commits": 9,
+        "additions": 16,
+        "deletions": 0,
+        "changed_files": 2
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:54:22Z"
+  },
+  {
+    "id": "3208922922",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/379/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/379",
+        "id": 109851085,
+        "number": 379,
+        "title": "20 --Jonathan Creasman",
+        "user": {
+          "login": "jmcreasman",
+          "id": 13600903,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13600903?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jmcreasman",
+          "html_url": "https://github.com/jmcreasman",
+          "followers_url": "https://api.github.com/users/jmcreasman/followers",
+          "following_url": "https://api.github.com/users/jmcreasman/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jmcreasman/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jmcreasman/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jmcreasman/subscriptions",
+          "organizations_url": "https://api.github.com/users/jmcreasman/orgs",
+          "repos_url": "https://api.github.com/users/jmcreasman/repos",
+          "events_url": "https://api.github.com/users/jmcreasman/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jmcreasman/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T17:53:42Z",
+        "updated_at": "2015-10-05T17:53:42Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [ ] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:53:43Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3207802496",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43155615,
+      "name": "jmcreasman/TIY-Chessboard2.0",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0"
+    },
+    "payload": {
+      "push_id": 815491130,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "c387b95071ce15bc03da4e542680590da61a2e1c",
+      "before": "c14e8a0c12d146cd4890eac42d15905a7d3f460e",
+      "commits": [
+        {
+          "sha": "c387b95071ce15bc03da4e542680590da61a2e1c",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "cleaning up some comments",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/c387b95071ce15bc03da4e542680590da61a2e1c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T12:58:51Z"
+  },
+  {
+    "id": "3206186980",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13600903,
+      "login": "jmcreasman",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmcreasman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13600903?"
+    },
+    "repo": {
+      "id": 43155615,
+      "name": "jmcreasman/TIY-Chessboard2.0",
+      "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0"
+    },
+    "payload": {
+      "push_id": 814841680,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "c14e8a0c12d146cd4890eac42d15905a7d3f460e",
+      "before": "c8e98a4d18a13840b568d24c2c05decf50ab50f3",
+      "commits": [
+        {
+          "sha": "c14e8a0c12d146cd4890eac42d15905a7d3f460e",
+          "author": {
+            "email": "jmcreasman89@gmail.com",
+            "name": "Jon"
+          },
+          "message": "beast/nightmare mode attempt",
+          "distinct": true,
+          "url": "https://api.github.com/repos/jmcreasman/TIY-Chessboard2.0/commits/c14e8a0c12d146cd4890eac42d15905a7d3f460e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T19:59:05Z"
+  }
+]
