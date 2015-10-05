@@ -6,8 +6,8 @@
 
   "scripts": {
    "test": "mocha",
-   "start" : "browser-sync start --server --files='*.html, js/*.js, css/*.css'",
-   "sass" : "node-sass src/scss/main.scss --output src/css/main.css"
+   "start" : "browser-sync start --server --directory --files='src/*.html, src/js/*.js, src/css/*.css'",
+   "sass" : "node-sass src/scss/main.scss --output src/css/"
  },
 
   "repository": {
