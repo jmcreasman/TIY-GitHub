@@ -1,3 +1,24 @@
-p {
-  color: purple;
+
+img {
+  width: 150px;
+  height: 150px;
+}
+.left {
+  display: block;
+  float: left;
+  background-color: yellow;
+  width: 30%;
+}
+.right {
+  display: block;
+  float: left;
+  background-color: red;
+  width: 60%;
+}
+.3littlethings {
+  display: block;
+  float: left;
+}
+ul {
+list-style-type: none;
 }
