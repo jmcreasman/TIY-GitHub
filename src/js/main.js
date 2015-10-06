@@ -41,9 +41,12 @@ jQuery(document).ready(function() {
 //         $('#name').text( );
 //     }
 // });
-// Only did the first couple since I'd be doing the whole thing with lodash (assuming I'll know how to do that :p)
 $.getJSON('apis/github/users/jmcreasman.json', function(data) {
   $('.name').html('<h1>' + data.name);
   $('.login').html('<h1>' + data.login);
-
+  $('.company').html('<span>' + data.company);
+  $('.location').html('<span>' + data.location);
+  $('.email').html('<span>' + data.email);
+  $('.blog').html('<span>' + data.blog);
+  $('.created').html('<span>' + data.created_at);
 });
