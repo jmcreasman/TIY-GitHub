@@ -50,3 +50,15 @@ $.getJSON('apis/github/users/jmcreasman.json', function(data) {
   $('.blog').html('<span>' + data.blog);
   $('.created').html('<span>' + data.created_at);
 });
+var name = _.template('<%= name %>!');
+name({ 'name': 'Jonathan Creasman' });
+var email = _.template('<%= email %>!');
+email({ 'email': 'jmcreasman89@gmail.com' });
+var company = _.template('<%= company %>!');
+company({ 'company': 'SkyBound' });
+var location = _.template('<%= location %>!');
+location({ 'location': 'Durham' });
+var blog = _.template('<%= blog %>!');
+blog({ 'blog': 'None' });
+var created = _.template('<%= created_at %>!');
+created({ 'created_at': 'March 30th' });
