@@ -26,7 +26,7 @@
           <img src="img/jedi.jpg">
           <h1>{{name}}</h1>
           <h1>{{login}}</h1>
-          <ul class="leftsidelist">
+          <ul>
             <li><span class="octicon octicon-organization"></span>{{company}}</li>
             <li><span class="octicon octicon-location">{{location}}</li>
             <li><span class="octicon octicon-mail">{{email}}</li>
@@ -38,56 +38,40 @@
           <div class="3littlethings">{{following}}</div>
         </section>
         <section class="right">
-          <div class="tabs">
-            <ul class="tab-links">
-              <li class="octicon octicon-diff-added"><a href="#tab1">Contributions</a></li>
-              <li class="octicon octicon-repo active"><a href="#tab2">Repositories</a></li>
-              <li class="octicon octicon-rss"><a href="#tab3">Public activity</a></li>
-              <button class="octicon octicon-person follow" type="button">Follow</button>
-              <button class="octicon octicon-stop" type="button"></button>
-            </ul>
-          <div class="tab-content">
-            <nav id="tab1" class="tab">
-              <p>tab 1</p>
-            </nav>
-            <nav id="tab2" class="tab active">
-              <div class="searchnfliter">
-                <hr>
-                <form>
-                  <input type="text" id="your-repos-filter" name="q"
-                  class="filter_input js-filterable-field"
-                  placeholder="Find a repository…"
-                  tabindex="2" aria-label="Filter your repositories by name">
-                  <input type="submit" value="Search">
-                  <input type="submit" value="All">
-                  <input type="submit" value="Sources">
-                  <input type="submit" value="Forks">
-                  <input type="submit" value="Mirrors">
-                </form>
-              </div>
-              <div class="repolist">
-                <hr>
-                <h3>{{name}}</h3>
-                <p>{{description}}</p>
-                <p>{{updated_at}}</p>
-                <hr>
-                <h3>Hello-World!</h3>
-                <p>This your first repo!</p>
-                <p>Updated 4 days ago</p>
-                <hr>
-                <h3>octocat.github.io</h3>
-                <p>
-                  <!-- Leave me blank for now -->
-                </p>
-                <p>Updated 4 days ago</p>
-                <hr>
-              </div>
-            </nav>
-            <nav id="tab3" class="tab">
-              <p>tab 3</p>
-            </nav>
-          </div>
-        </div>
+          <h3>Popular repositories</h3>
+          <ul>
+            <li>
+              <a>
+              <span>Spoon-Knife</span>
+              <span>This repo is for demonstration purposes only.</span>
+            </li>
+            <li>
+              <a>
+                <span>Hello-World</span>
+                <span>This your first repo!</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span>hello-world</span>
+                <span>My first repository on GitHub.</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span>octocat.github.io</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <span>git-consortium</span>
+                <span>This repo is for demonstration purposes only.</span>
+              </a>
+            </li>
+          </ul>
+          <h3>Public contributions</h3>
+          <h2>Contribution activity</h2>
+            <h3>octocat has no activity during this period.</h3>
         </section>
 
 
