@@ -1,28 +1,32 @@
-
-img {
-  width: 150px;
-  height: 150px;
-}
 .left {
   display: block;
   float: left;
   width: 30%;
+  .group {
+    height: 65%;
+    width: 30%;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+    .leftsidelist {
+      list-style-type: none;
+      text-align: left;
+      padding-left: 10px;
+    }
+    .3littlethings {
+      display: block;
+      float: left;
+    }
+  }
 }
 .right {
   display: block;
   float: left;
   width: 60%;
-}
-.3littlethings {
-  display: block;
-  float: left;
-}
-.leftsidelist {
-list-style-type: none;
-}
-
-.follow {
-  background-color: #71CA52;
+  .follow {
+    background-color: #71CA52;
+  }
 }
 
 .forgiveme {
@@ -83,3 +87,9 @@ list-style-type: none;
         .tab.active {
             display:block;
         }
+//
+// @media screen and (max-width: 32em) {
+//   body {
+//     background-color: red;
+//   }
+// }

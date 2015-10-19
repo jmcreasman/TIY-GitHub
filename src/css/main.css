@@ -77,29 +77,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-img {
-  width: 150px;
-  height: 150px; }
-
 .left {
   display: block;
   float: left;
   width: 30%; }
+  .left .group {
+    height: 65%;
+    width: 30%; }
+    .left .group img {
+      width: 150px;
+      height: 150px; }
+    .left .group .leftsidelist {
+      list-style-type: none;
+      text-align: left;
+      padding-left: 10px; }
+    .left .group .3littlethings {
+      display: block;
+      float: left; }
 
 .right {
   display: block;
   float: left;
   width: 60%; }
-
-.3littlethings {
-  display: block;
-  float: left; }
-
-.leftsidelist {
-  list-style-type: none; }
-
-.follow {
-  background-color: #71CA52; }
+  .right .follow {
+    background-color: #71CA52; }
 
 .forgiveme {
   display: none; }
