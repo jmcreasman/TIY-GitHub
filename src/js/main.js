@@ -4,12 +4,15 @@
 //   console.log(octocatResult);
 // })();
 
-(function() {
-jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
- console.log(arguments);
-});
-})();
 
+// (function() {
+// jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
+//  console.log(arguments);
+// });
+// })();
+
+
+// tabs
 jQuery(document).ready(function() {
     jQuery('.tabs .tab-links a').on('click', function(e)  {
         var currentAttrValue = jQuery(this).attr('href');
