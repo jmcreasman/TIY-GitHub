@@ -3,13 +3,11 @@
   "version": "0.0.4",
   "description": "Github Revolution!",
   "main": "index.js",
-
   "scripts": {
-   "test": "mocha",
-   "start" : "browser-sync start --server --directory --files='src/*.html, src/js/*.js, src/css/*.css'",
-   "sass" : "node-sass src/scss/main.scss --output src/css/"
- },
-
+    "test": "mocha",
+    "start": "browser-sync start --server --directory --files='src/*.html, src/js/*.js, src/css/*.css'",
+    "sass": "node-sass src/scss/main.scss --output src/css/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://jmcreasman@github.com/jmcreasman/TIY-GitHub.git"
@@ -21,9 +19,11 @@
   },
   "homepage": "https://github.com/jmcreasman/TIY-GitHub#readme",
   "devDependencies": {
+    "bower": "^1.6.3",
     "browser-sync": "^2.9.6",
     "chai": "^3.3.0",
     "mocha": "^2.3.3",
-    "node-sass": "^3.3.3"
+    "node-sass": "^3.3.3",
+    "wiredep": "^2.2.2"
   }
 }
