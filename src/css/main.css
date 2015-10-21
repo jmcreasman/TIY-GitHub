@@ -152,6 +152,44 @@ li.active a, li.active a:hover {
 .tab.active {
   display: block; }
 
+.comment-whole {
+  position: relative;
+  padding-left: 64px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff; }
+  .comment-whole .comment-middle {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px; }
+    .comment-whole .comment-middle .comment-header {
+      background-color: #f2f8fa;
+      border-bottom-color: #dde4e6;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: #767676;
+      border-bottom: 1px solid #eee;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px; }
+    .comment-whole .comment-middle .comment-content {
+      box-sizing: border-box; }
+
+.leave-a-comment {
+  padding: 0 0 10px;
+  margin: 0 10px;
+  width: 100%;
+  min-height: 100px;
+  max-height: 500px;
+  padding: 10px;
+  resize: vertical;
+  border-bottom: 1px dashed #ddd;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 14px;
+  line-height: 1.6; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

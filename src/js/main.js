@@ -43,27 +43,36 @@ jQuery(document).ready(function() {
 
       $http.get('apis/github/users/octocat/repositories.json')
         .then(function (response){
-          $rootScope.repo4 = response.data[4];
+          $rootScope.repos = response.data;
         });
 
     })
+
+    // .run(function($http, $rootScope){
+    //
+    //   $http.get('apis/github/users/jmcreasman/comments.json')
+    //     .then(function (response){
+    //       $rootScope.comments = response.data;
+    //     });
+    //
+    // })
 
     .run(function($http, $rootScope){
 
-      $http.get('apis/github/users/octocat/repositories.json')
+      $http.get('apis/github/users/jmcreasman/comments.json')
         .then(function (response){
-          $rootScope.repo3 = response.data[3];
+          $rootScope.comments = response.data;
         });
 
     })
 
-    .run(function($http, $rootScope){
-
-      $http.get('apis/github/users/octocat/repositories.json')
-        .then(function (response){
-          $rootScope.repo2 = response.data[2];
-        });
-
-    })
+    // .run(function($http, $rootScope){
+    //
+    //   $http.get("https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/510/comments")
+    //     .then(function (response){
+    //       $rootScope.comments = response.data;
+    //     });
+    //
+    // })
 
 })(); //END IIFE
