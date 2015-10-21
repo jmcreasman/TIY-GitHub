@@ -68,22 +68,11 @@
                   <input type="submit" value="Mirrors">
                 </form>
               </div>
-              <div class="repolist">
+              <div class="repolist" ng-repeat="repo in repos">
                 <hr>
-                <h3>{{repo4.name}}</h3>
-                <p>{{repo4.description}}</p>
-                <p>{{repo4.updated_at}}</p>
-                <hr>
-                <h3>{{repo2.name}}</h3>
-                <p>{{repo2.description}}</p>
-                <p>{{repo2.updated_at}}</p>
-                <hr>
-                <h3>{{repo3.name}}</h3>
-                <p>
-                  <!-- Leave me blank for now -->
-                </p>
-                <p>{{repo3.updated_at}}</p>
-                <hr>
+                <h3>{{repo.name}}</h3>
+                <p>{{repo.description}}</p>
+                <p>{{repo.updated_at}}</p>
               </div>
             </nav>
             <nav id="tab3" class="tab">
@@ -91,6 +80,21 @@
             </nav>
           </div>
         </div>
+        <div class="comment-whole" ng-repeat="comment in comments">
+          <div class="comment-middle">
+            <div class="comment-header">
+            <div class="comment-content"
+              <p>{{comment.body}}</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="leave-a-comment">
+          <textarea name="comment[body]" tabindex="1" placeholder="Leave a comment"></textarea>
+          <button type="submit">Comment
+          </button>
+        </div>
+
         </section>
       </main>
 
