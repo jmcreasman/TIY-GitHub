@@ -26,3 +26,44 @@ jQuery(document).ready(function() {
         e.preventDefault();
     });
 });
+
+;(function(){
+
+  angular.module('TIY-GitHub', [ ])
+    .run(function($http, $rootScope){
+
+      $http.get('apis/github/users/jmcreasman.json')
+        .then(function (response){
+          $rootScope.user = response.data;
+        });
+
+    })
+
+    .run(function($http, $rootScope){
+
+      $http.get('apis/github/users/octocat/repositories.json')
+        .then(function (response){
+          $rootScope.repo4 = response.data[4];
+        });
+
+    })
+
+    .run(function($http, $rootScope){
+
+      $http.get('apis/github/users/octocat/repositories.json')
+        .then(function (response){
+          $rootScope.repo3 = response.data[3];
+        });
+
+    })
+
+    .run(function($http, $rootScope){
+
+      $http.get('apis/github/users/octocat/repositories.json')
+        .then(function (response){
+          $rootScope.repo2 = response.data[2];
+        });
+
+    })
+
+})(); //END IIFE
